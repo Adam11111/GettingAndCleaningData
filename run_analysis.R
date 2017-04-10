@@ -89,15 +89,11 @@ meanstd_data <- meanstd_data[,-1]
 #####################################
 meanstd_df <- tbl_df(meanstd_data)
 tidy_df <- meanstd_df %>% group_by(activity_name,subject_id) %>% summarise_each(funs(mean))
-test <- names(tidy_df)
-View(matrix(test,nrow=68,ncol=1))
 
 
-
-
-
-
-
-
+###################
+## Write to file ##
+###################
+write.table(tidy_df,"./tidy_df.txt",row.names=FALSE)
 
 

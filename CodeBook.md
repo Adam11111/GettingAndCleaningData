@@ -26,9 +26,23 @@ The means and standard deviations are averaged and grouped by the type of activi
 * Contains the values 1:30
 
 
-###
+### Fields 3 through 68
 The following fields from columns 3 to 68 contain the means of each variable (of the means and standard deviations).
 
+There are several categories/groups of observations. The following describes the labels used and what they mean, roughly in order of how they appear in the column names themselves.
+
+The following 3 categories are mutually exclusive in their appearance:
+* Time/Freq - time or frequency domain signals
+* Body/Grav - body or gravity acceleration signals
+* Acc/Gyro - measurements from the accelerometer or gyroscope
+
+There are 2 add-on labels:
+* Jerk - jerk signals from body linear acceleration and angular velocity derived in time
+* Mag - magnitude of the three-dimensional signals using the Euclidean norm
+
+Followed by 2 more label groups:
+* mean/std - mean or standard deviation of the meansurement
+* X/Y/Z - used to denote the 3 axial signals in the X, Y and Z directions
 
 3 Time_Body_Acc_mean_X
 
