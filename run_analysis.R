@@ -3,11 +3,11 @@
 ##
 ## Getting and Cleaning Data Course Project
 ##
+## This program assumes the Samsung data is already in your working directory unzipped here:
+##  "./activitydata/UCI HAR Dataset/"
+##
 ## See the README.md file for the script to download and unzip the data
 ## See the CodeBook.md file for the data dictionary
-##
-## *Before running* set your working directory to a place where you want the data downloaded to
-## Type "getwd()" to see your current working directory, and "setwd()" to change it
 ##
 ## 1. Merges the training and the test sets to create one data set.
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement.

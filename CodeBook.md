@@ -2,6 +2,8 @@
 
 See README.md for data source as well as code to import into R for run_analysis.R to work
 
+IMPORTANT ASSUMPTION: The XYZ variables were not stacked on the assumption that the axis directions are to be kept separate.
+
 ## Description
 
 This dataset represents the mean and standard deviation of accelerometer and gyroscopic data from smartphones.
