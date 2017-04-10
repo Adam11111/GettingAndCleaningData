@@ -21,7 +21,7 @@ The means and standard deviations are averaged and grouped by the type of activi
 * STANDING
 * LAYING
 
-2 subject_id
+1 subject_id
 * ID values representing the subject participants
 * Contains the values 1:30
 
