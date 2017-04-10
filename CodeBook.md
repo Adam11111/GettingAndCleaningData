@@ -21,17 +21,23 @@ The means and standard deviations are averaged and grouped by the type of activi
 * STANDING
 * LAYING
 
-1 subject_id
+2 subject_id
 * ID values representing the subject participants
 * Contains the values 1:30
 
 
 3 Time_Body_Acc_mean_X
+
 4 Time_Body_Acc_mean_Y
+
 5 Time_Body_Acc_mean_Z
+
 6 Time_Body_Acc_std_X
+
 7 Time_Body_Acc_std_Y
+
 8 Time_Body_Acc_std_Z
+
 9 Time_Grav_Acc_mean_X
 10 Time_Grav_Acc_mean_Y
 11 Time_Grav_Acc_mean_Z
