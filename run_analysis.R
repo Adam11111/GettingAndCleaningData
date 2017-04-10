@@ -18,14 +18,6 @@
 ###################################################################################################
 
 
-#################################
-## Download and unzip the data ##
-#################################
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl,"./activitydata.zip")
-unzip("./activitydata.zip",exdir="./activitydata")
-
-
 ########################
 ## Load dplyr package ##
 ########################
@@ -95,5 +87,3 @@ tidy_df <- meanstd_df %>% group_by(activity_name,subject_id) %>% summarise_each(
 ## Write to file ##
 ###################
 write.table(tidy_df,"./tidy_df.txt",row.names=FALSE)
-
-
