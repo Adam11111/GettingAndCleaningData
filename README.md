@@ -14,5 +14,7 @@ To reproduce the downloaded data see the code below:
 
 ## Download and unzip the data
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+
 download.file(fileUrl,"./activitydata.zip")
+
 unzip("./activitydata.zip",exdir="./activitydata")
